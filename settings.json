@@ -1,0 +1,88 @@
+{
+    // Define o tamanho da fonte do editor como 15 pixels
+    "editor.fontSize": 15,
+
+    // Define a altura da linha como 1.7 (vezes o tamanho da fonte)
+    "editor.lineHeight": 1.7,
+
+    // Limite da linha: exibe uma régua vertical na coluna 90
+    "editor.rulers": [90],
+
+    // Define o tipo de editor a ser aberto no início como um novo arquivo sem título
+    "workbench.startupEditor": "newUntitledFile",
+
+    // Habilita ligaturas de fonte (características estilísticas especiais) no editor
+    "editor.fontLigatures": true,
+
+    // Omite caminhos: exibe apenas os nomes dos arquivos na guia do editor
+    "workbench.editor.labelFormat": "short",
+
+    // Impede a omissão de pastas: exibe todas as pastas no explorador
+    "explorer.compactFolders": false,
+
+    // Esconde o mapa do código: desativa a exibição do minimapa no editor
+    "editor.minimap.enabled": false,
+
+    // Esconde a barra de rolagem horizontal no editor
+    "editor.scrollbar.horizontal": "hidden",
+
+    // Esconde a barra de rolagem vertical no editor
+    "editor.scrollbar.vertical": "hidden",
+
+    // Desativa o centro de comando
+    "window.commandCenter": false,
+
+    // Desativa o layout de controle no Workbench
+    "workbench.layoutControl.enabled": false,
+
+    // Marca o número da linha ao invés da linha toda na margem esquerda do editor
+    "editor.renderLineHighlight": "gutter",
+
+    // Desativa a colorização automática de "Parâmetros"
+    "editor.semanticHighlighting.enabled": false,
+
+    // Desativa a exibição do caminho do arquivo acima do código
+    "breadcrumbs.enabled": false,
+
+    // Exibe setas de expansão no explorador de símbolos
+    "symbols.hidesExplorerArrows": false,
+
+    // Move a barra de atividades para o topo do Workbench
+    "workbench.activityBar.location": "top",
+
+    // Define a visibilidade da barra de título personalizada como automática
+    "window.customTitleBarVisibility": "auto",
+
+    // Define o estilo da barra de título como personalizado
+    "window.titleBarStyle": "custom",
+
+    // -------------------------- CODE RUNNER ------------------------------
+    // Executa o código no terminal
+    "code-runner.runInTerminal": true,
+
+    // Limpa a saída anterior antes de executar o código
+    "code-runner.clearPreviousOutput": true,
+
+    // Ignora a seleção e executa o arquivo inteiro com Code Runner
+    "code-runner.ignoreSelection": true,
+    // ----------------------------- FIM ------------------------------------
+
+    // Define o salvamento automático de arquivos
+    "files.autoSave": "afterDelay",
+
+    // Define Fish Shell como terminal padrão no Linux
+    "terminal.integrated.defaultProfile.linux": "fish",
+
+    // Define o tema de cor do Workbench como "Min Dark"
+    "workbench.colorTheme": "Min Dark",
+
+    // Define o tema de ícones como "symbols"
+    "workbench.iconTheme": "symbols",
+
+    // Define a família da fonte do editor como "JetBrains Mono"
+    "editor.fontFamily": "JetBrains Mono",
+
+    // Define o caminho do interpretador Python padrão
+    "python.defaultInterpreterPath": "python"
+
+}
